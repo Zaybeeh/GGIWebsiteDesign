@@ -1,0 +1,5599 @@
+/*-------------------------------------------Mobile Media Query Start-----------------------------------------------------------------*/
+@media only screen and (min-width:280px) and (max-width: 319px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .topbar_title {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f30302;
+    font-size: 16px;
+    padding: 10px 10px 10px 0px!important;
+    margin-top: 4px;
+  }
+  .topbar_text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  .testimonials_sec {
+    background-color: #101822;
+    padding: 60px 20px!important;
+    box-sizing: border-box;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  .blog-slider__img{
+    height: 250px;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 65px 20px!important;
+  }
+  .logo_img {
+    height: 50px;
+    width: initial;
+    margin: 25px 0;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "Montserrat";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .book_an_appointment_btn_2{
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;     
+    }
+    /*.carousel_img{
+      width: 100%;
+    }*/
+    .permanent_resident_visa_text {
+      font-family: "Montserrat";
+      font-size: 18px;
+      position: relative;
+      color: white;
+      z-index: 99999;
+      top: -140px;
+      left: 10px;
+      width: 95%;
+    }
+    .immigrate_canada_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      line-height: 30px;
+    }
+    .react-multiple-carousel__arrow::before {
+      font-size: 16px!important;
+      color: #fff;
+      display: block;
+      font-family: revicons;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      left: 1px;
+      top: -1px;
+    }
+    .react-multiple-carousel__arrow {
+      position: absolute;
+      outline: 0;
+      transition: all .5s;
+      border-radius: 35px;
+      z-index: 1000;
+      border: 0;
+      background: rgba(0,0,0,0.5);
+      min-width: 35px!important;
+      min-height: 35px!important;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .embark_scroll_container {
+      height: 300px;
+      overflow-y: scroll;
+      position: relative;
+      font-family: "Montserrat";
+      font-size: 13px;
+      padding-right: 5px;
+      margin-right: 1px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      line-height: 21px;
+      text-align: justify;
+      letter-spacing: 0.7px;
+      font-weight: 400;
+    }
+    .embark_scroll_container::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+      /* background: #d80100; */
+    }
+    .learn_more_btn {
+      font-family: "Montserrat";
+      font-size: 14px;
+      position: relative;
+      z-index: 99999;
+      top: -125px;
+      width: 84%;
+      background: #ff0000;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 0px;
+    }
+    .embark_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #d80100;
+      border-radius: 6px;
+      padding: 10px 40px 10px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .consultants_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 25px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+    }
+    /* .consultants .react-multi-carousel-item {
+      width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
+    }
+    .meet_the_team_btn {
+      font-family: "Montserrat";
+      position: relative;
+      top: -70px;
+      border: none;
+      color: #ffffff;
+      background: #ff0000;
+      padding: 12px 40px 12px 40px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+    section.row.testimonials h2 {
+      color: #ffffff;
+      font-weight: normal;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .book_appoint_section{
+      padding: 50px 20px;
+    }
+    .book_appoint_section_title {
+      font-family: "Montserrat";
+      font-size: 18px!important;
+      font-weight: 500;
+      color: #000;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+    .book_appoint_appointment {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 40px;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+/*      margin-top: 89px!important;*/
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -52px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    width: 34%;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 9px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: 144px;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 80px 20px 50px 20px;
+  }
+  .requirements_section {
+      background-color: #292A2B;
+      padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+  }
+  .contact_us_today_text{
+  font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #D80000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  .blog_section_title {
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .Blog_section{
+    background: #101822;
+    padding: 65px 60px 60px 60px;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+   .banner_content_blog {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -42px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 30%;
+  }
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 100px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
+  .flex_this {
+    display: grid;
+    gap: 15px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: auto;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+  .contact_section_title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width:320px) and (max-width: 374px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .topbar_title {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f30302;
+    font-size: 16px;
+    padding: 10px 10px 10px 0px!important;
+    margin-top: 4px;
+  }
+  .topbar_text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  .testimonials_sec {
+    background-color: #101822;
+    padding: 60px 20px!important;
+    box-sizing: border-box;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  .blog-slider__img{
+    height: 250px;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 65px 20px;
+  }
+  .logo_img {
+    height: 60px;
+    width: initial;
+    margin: 25px 0;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "Montserrat";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .book_an_appointment_btn_2{
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;     
+    }
+    /*.carousel_img{
+      width: 100%;
+    }*/
+    .permanent_resident_visa_text {
+      font-family: "Montserrat";
+      font-size: 18px;
+      position: relative;
+      color: white;
+      z-index: 99999;
+      top: -140px;
+      left: 10px;
+      width: 95%;
+    }
+    .immigrate_canada_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      line-height: 30px;
+    }
+    .react-multiple-carousel__arrow::before {
+      font-size: 16px!important;
+      color: #fff;
+      display: block;
+      font-family: revicons;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      left: 1px;
+      top: -1px;
+    }
+    .react-multiple-carousel__arrow {
+      position: absolute;
+      outline: 0;
+      transition: all .5s;
+      border-radius: 35px;
+      z-index: 1000;
+      border: 0;
+      background: rgba(0,0,0,0.5);
+      min-width: 35px!important;
+      min-height: 35px!important;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .embark_scroll_container {
+      height: 300px;
+      overflow-y: scroll;
+      position: relative;
+      font-family: "Montserrat";
+      font-size: 13px;
+      padding-right: 5px;
+      margin-right: 1px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      line-height: 21px;
+      text-align: justify;
+      letter-spacing: 0.7px;
+      font-weight: 400;
+    }
+    .embark_scroll_container::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+      /* background: #d80100; */
+    }
+    .learn_more_btn {
+      font-family: "Montserrat";
+      font-size: 14px;
+      position: relative;
+      z-index: 99999;
+      top: -125px;
+      width: 84%;
+      background: #ff0000;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 0px;
+    }
+    .embark_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #d80100;
+      border-radius: 6px;
+      padding: 10px 40px 10px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .consultants_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 25px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+    }
+    /* .consultants .react-multi-carousel-item {
+      width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
+    }
+    .meet_the_team_btn {
+      font-family: "Montserrat";
+      position: relative;
+      top: -70px;
+      border: none;
+      color: #ffffff;
+      background: #ff0000;
+      padding: 12px 40px 12px 40px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+    section.row.testimonials h2 {
+      color: #ffffff;
+      font-weight: normal;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .book_appoint_section{
+      padding: 50px 20px;
+    }
+    .book_appoint_section_title {
+      font-family: "Montserrat";
+      font-size: 18px!important;
+      font-weight: 500;
+      color: #000;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+    .book_appoint_appointment {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 40px;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+/*      margin-top: 89px!important;*/
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -45px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    width: 34%;
+  }
+  .banner_content_blog{
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -105px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 30%;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 9px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: max-content;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 80px 20px 50px 20px;
+  }
+  .requirements_section {
+      background-color: #292A2B;
+      padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+  }
+  .contact_us_today_text{
+  font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #D80000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+  .banner_content_blog {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -90px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 30%;
+  }
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 150px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
+  .flex_this {
+    display: grid;
+    gap: 15px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: auto;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+}
+@media only screen and (min-width:375px) and (max-width: 405px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .topbar_title {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f30302;
+    font-size: 16px;
+    padding: 10px 10px 10px 0px!important;
+    margin-top: 4px;
+  }
+  .topbar_text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  .testimonials_sec {
+    background-color: #101822;
+    padding: 60px 20px!important;
+    box-sizing: border-box;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  .blog-slider__img{
+    height: 250px;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 65px 20px;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "Montserrat";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .book_an_appointment_btn_2{
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;     
+    }
+    /*.carousel_img{
+      width: 100%;
+    }*/
+    .permanent_resident_visa_text {
+      font-family: "Montserrat";
+      font-size: 18px;
+      position: relative;
+      color: white;
+      z-index: 99999;
+      top: -140px;
+      left: 10px;
+      width: 95%;
+    }
+    .immigrate_canada_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      line-height: 30px;
+    }
+    .react-multiple-carousel__arrow::before {
+      font-size: 16px!important;
+      color: #fff;
+      display: block;
+      font-family: revicons;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      left: 1px;
+      top: -1px;
+    }
+    .react-multiple-carousel__arrow {
+      position: absolute;
+      outline: 0;
+      transition: all .5s;
+      border-radius: 35px;
+      z-index: 1000;
+      border: 0;
+      background: rgba(0,0,0,0.5);
+      min-width: 35px!important;
+      min-height: 35px!important;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .embark_scroll_container {
+      height: 300px;
+      overflow-y: scroll;
+      position: relative;
+      font-family: "Montserrat";
+      font-size: 13px;
+      padding-right: 5px;
+      margin-right: 1px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      line-height: 21px;
+      text-align: justify;
+      letter-spacing: 0.7px;
+      font-weight: 400;
+    }
+    .embark_scroll_container::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+      /* background: #d80100; */
+    }
+    .learn_more_btn {
+      font-family: "Montserrat";
+      font-size: 14px;
+      position: relative;
+      z-index: 99999;
+      top: -125px;
+      width: 84%;
+      background: #ff0000;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 7px;
+    }
+    .embark_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #d80100;
+      border-radius: 6px;
+      padding: 10px 40px 10px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .consultants_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 25px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+    }
+    /* .consultants .react-multi-carousel-item {
+      width: 197px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
+    }
+    .meet_the_team_btn {
+      font-family: "Montserrat";
+      position: relative;
+      top: -70px;
+      border: none;
+      color: #ffffff;
+      background: #ff0000;
+      padding: 12px 40px 12px 40px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+    section.row.testimonials h2 {
+      color: #ffffff;
+      font-weight: normal;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .book_appoint_section{
+      padding: 50px 20px;
+    }
+    .book_appoint_section_title {
+      font-family: "Montserrat";
+      font-size: 18px!important;
+      font-weight: 500;
+      color: #000;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+    .book_appoint_appointment {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 40px;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+/*      margin-top: 89px!important;*/
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -50px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 34%;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 9px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: max-content;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 80px 20px 50px 20px;
+  }
+  .requirements_section {
+      background-color: #292A2B;
+      padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+  }
+  .contact_us_today_text{
+  font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #D80000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+ .banner_content_blog {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -100px;
+    margin-left: 18px;
+    margin-bottom: 55px;
+    width: 30%;
+  }
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 158px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
+
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
+  .flex_this {
+    display: grid;
+    gap: 15px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: auto;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+  .contact_section_title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width:406px) and (max-width: 459px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .topbar_title {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f30302;
+    font-size: 16px;
+    padding: 10px 10px 10px 0px!important;
+    margin-top: 4px;
+  }
+  .topbar_text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  .testimonials_sec {
+    background-color: #101822;
+    padding: 60px 20px!important;
+    box-sizing: border-box;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  .blog-slider__img{
+    height: 250px;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 65px 20px;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "Montserrat";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .book_an_appointment_btn_2{
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;     
+    }
+    /*.carousel_img {
+        width: 100%;
+    }*/
+    .permanent_resident_visa_text {
+      font-family: "Montserrat";
+      font-size: 18px;
+      position: relative;
+      color: white;
+      z-index: 99999;
+      top: -140px;
+      left: 10px;
+      width: 95%;
+    }
+    .immigrate_canada_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      line-height: 30px;
+    }
+    .react-multiple-carousel__arrow::before {
+      font-size: 16px!important;
+      color: #fff;
+      display: block;
+      font-family: revicons;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      left: 1px;
+      top: -1px;
+    }
+    .react-multiple-carousel__arrow {
+      position: absolute;
+      outline: 0;
+      transition: all .5s;
+      border-radius: 35px;
+      z-index: 1000;
+      border: 0;
+      background: rgba(0,0,0,0.5);
+      min-width: 35px!important;
+      min-height: 35px!important;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .embark_scroll_container {
+      height: 300px;
+      overflow-y: scroll;
+      position: relative;
+      font-family: "Montserrat";
+      font-size: 13px;
+      padding-right: 5px;
+      margin-right: 1px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      line-height: 21px;
+      text-align: justify;
+      letter-spacing: 0.7px;
+      font-weight: 400;
+    }
+    .embark_scroll_container::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+      /* background: #d80100; */
+    }
+    .learn_more_btn {
+      font-family: "Montserrat";
+      font-size: 14px;
+      position: relative;
+      z-index: 99999;
+      top: -125px;
+      width: 84%;
+      background: #ff0000;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 7px;
+    }
+    .embark_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #d80100;
+      border-radius: 6px;
+      padding: 10px 40px 10px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .consultants_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 25px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+    }
+    /* .consultants .react-multi-carousel-item {
+      width: 207px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
+    }
+    .meet_the_team_btn {
+      font-family: "Montserrat";
+      position: relative;
+      top: -70px;
+      border: none;
+      color: #ffffff;
+      background: #ff0000;
+      padding: 12px 40px 12px 40px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+    section.row.testimonials h2 {
+      color: #ffffff;
+      font-weight: normal;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .book_appoint_section{
+      padding: 50px 20px;
+    }
+    .book_appoint_section_title {
+      font-family: "Montserrat";
+      font-size: 18px!important;
+      font-weight: 500;
+      color: #000;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+    .book_appoint_appointment {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 40px;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+/*      margin-top: 89px!important;*/
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 60%;
+    left: 0%;
+    margin-top: -50px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+    width: 34%;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 9px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: max-content;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 80px 20px 50px 20px;
+  }
+  .requirements_section {
+      background-color: #292A2B;
+      padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+  }
+  .contact_us_today_text{
+  font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #D80000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+ .banner_content_blog {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -110px;
+    margin-left: 18px;
+    margin-bottom: 65px;
+    width: 30%;
+  }
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 190px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+
+  /*---------------------------------Blog Page End---------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
+  .flex_this {
+    display: grid;
+    gap: 15px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: auto;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+  .contact_section_title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 460px) and (max-width: 540px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .topbar_title {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f30302;
+    font-size: 16px;
+    padding: 10px 10px 10px 0px!important;
+    margin-top: 4px;
+  }
+  .topbar_text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  .testimonials_sec {
+    background-color: #101822;
+    padding: 60px 20px!important;
+    box-sizing: border-box;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  .blog-slider__img{
+    height: 250px;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "Montserrat";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .book_an_appointment_btn_2{
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;     
+    }
+    /*.carousel_img{
+      width: 100%;
+    }*/
+    .permanent_resident_visa_text {
+      font-family: "Montserrat";
+      font-size: 18px;
+      position: relative;
+      color: white;
+      z-index: 99999;
+      top: -140px;
+      left: 10px;
+      width: 95%;
+    }
+    .immigrate_canada_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      line-height: 30px;
+    }
+    .react-multiple-carousel__arrow::before {
+      font-size: 16px!important;
+      color: #fff;
+      display: block;
+      font-family: revicons;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      left: 1px;
+      top: -1px;
+    }
+    .react-multiple-carousel__arrow {
+      position: absolute;
+      outline: 0;
+      transition: all .5s;
+      border-radius: 35px;
+      z-index: 1000;
+      border: 0;
+      background: rgba(0,0,0,0.5);
+      min-width: 35px!important;
+      min-height: 35px!important;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .embark_scroll_container {
+      height: 300px;
+      overflow-y: scroll;
+      position: relative;
+      font-family: "Montserrat";
+      font-size: 13px;
+      padding-right: 5px;
+      margin-right: 1px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      line-height: 21px;
+      text-align: justify;
+      letter-spacing: 0.7px;
+      font-weight: 400;
+    }
+    .embark_scroll_container::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+      /* background: #d80100; */
+    }
+    .learn_more_btn {
+      font-family: "Montserrat";
+      font-size: 14px;
+      position: relative;
+      z-index: 99999;
+      top: -125px;
+      width: 84%;
+      background: #ff0000;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 7px;
+    }
+    .embark_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #d80100;
+      border-radius: 6px;
+      padding: 10px 40px 10px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .consultants_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 25px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+    }
+    /* .consultants .react-multi-carousel-item {
+      width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
+    }
+    .meet_the_team_btn {
+      font-family: "Montserrat";
+      position: relative;
+      top: -70px;
+      border: none;
+      color: #ffffff;
+      background: #ff0000;
+      padding: 12px 40px 12px 40px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+    section.row.testimonials h2 {
+      color: #ffffff;
+      font-weight: normal;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .book_appoint_section{
+      padding: 50px 20px;
+    }
+    .book_appoint_section_title {
+      font-family: "Montserrat";
+      font-size: 18px!important;
+      font-weight: 500;
+      color: #000;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+    .book_appoint_appointment {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 40px;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+/*      margin-top: 89px!important;*/
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 53%;
+    left: 0%;
+    margin-top: -50px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    width: 34%;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 9px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: max-content;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 80px 20px 50px 20px;
+  }
+  .requirements_section {
+      background-color: #292A2B;
+      padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+  }
+  .contact_us_today_text{
+  font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #D80000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 60px 60px 60px;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+   .banner_content_blog {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -90px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 30%;
+  }
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 150px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
+  .flex_this {
+    display: grid;
+    gap: 15px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: auto;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+  .contact_section {
+    background: #101822;
+    padding: 100px 20px 80px 20px;
+  }
+  .contact_section_title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 541px)  and (max-width: 767px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .topbar_title {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f30302;
+    font-size: 16px;
+    padding: 10px 10px 10px 0px!important;
+    margin-top: 4px;
+  }
+  .topbar_text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  .testimonials_sec {
+    background-color: #101822;
+    padding: 60px 20px!important;
+    box-sizing: border-box;
+  }
+  .blog-slider__pagination .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  .blog-slider__img{
+    height: 250px;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "Montserrat";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px!important;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .book_an_appointment_btn_2{
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 12px;
+      color: #f30302;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;     
+    }
+    /*.carousel_img{
+      width: 100%;
+    }*/
+    .permanent_resident_visa_text {
+      font-family: "Montserrat";
+      font-size: 18px;
+      position: relative;
+      color: white;
+      z-index: 99999;
+      top: -140px;
+      left: 10px;
+      width: 95%;
+    }
+    .immigrate_canada_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      line-height: 30px;
+    }
+    .react-multiple-carousel__arrow::before {
+      font-size: 16px!important;
+      color: #fff;
+      display: block;
+      font-family: revicons;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      left: 1px;
+      top: -1px;
+    }
+    .react-multiple-carousel__arrow {
+      position: absolute;
+      outline: 0;
+      transition: all .5s;
+      border-radius: 35px;
+      z-index: 1000;
+      border: 0;
+      background: rgba(0,0,0,0.5);
+      min-width: 35px!important;
+      min-height: 35px!important;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .embark_scroll_container {
+      height: 300px;
+      overflow-y: scroll;
+      position: relative;
+      font-family: "Montserrat";
+      font-size: 13px;
+      padding-right: 5px;
+      margin-right: 1px;
+      margin-left: 0px;
+      margin-bottom: 50px;
+      line-height: 21px;
+      text-align: justify;
+      letter-spacing: 0.7px;
+      font-weight: 400;
+    }
+    .embark_scroll_container::-webkit-scrollbar {
+      width: 5px; /* Width of the scrollbar */
+      /* background: #d80100; */
+    }
+    .learn_more_btn {
+      font-family: "Montserrat";
+      font-size: 14px;
+      position: relative;
+      z-index: 99999;
+      top: -125px;
+      width: 84%;
+      background: #ff0000;
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 7px;
+    }
+    .embark_book_appoint {
+      font-family: "Montserrat";
+      background: #fff;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #d80100;
+      border-radius: 6px;
+      padding: 10px 40px 10px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .consultants_sec_title {
+      font-family: "Montserrat";
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 25px;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+    }
+    /* .consultants .react-multi-carousel-item {
+      width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
+    }
+    .meet_the_team_btn {
+      font-family: "Montserrat";
+      position: relative;
+      top: -70px;
+      border: none;
+      color: #ffffff;
+      background: #ff0000;
+      padding: 12px 40px 12px 40px;
+      border-radius: 4px;
+      font-size: 14px;
+      text-transform: capitalize;
+    }
+    section.row.testimonials h2 {
+      color: #ffffff;
+      font-weight: normal;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .book_appoint_section{
+      padding: 50px 20px;
+    }
+    .book_appoint_section_title {
+      font-family: "Montserrat";
+      font-size: 18px!important;
+      font-weight: 500;
+      color: #000;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+    .book_appoint_appointment {
+      font-family: "Montserrat";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 40px;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 450px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+/*      margin-top: 89px!important;*/
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 53%;
+    left: 0%;
+    margin-top: -50px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 34%;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 9px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: max-content;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 80px 20px 50px 20px;
+  }
+  .requirements_section {
+      background-color: #292A2B;
+      padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #ffffff;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #000;
+  }
+  .contact_us_today_text{
+  font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #D80000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: justify;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 60px 60px 60px;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+   .banner_content_blog {
+    position: inherit;
+    bottom: 65%;
+    left: 0%;
+    margin-top: -90px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+    width: 30%;
+  }
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 200px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  .footer_img{
+/*    width: -webkit-fill-available;*/
+  }
+  .flex_this {
+    display: grid;
+    gap: 15px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: auto;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+  .contact_section {
+    background: #101822;
+    padding: 100px 20px 80px 20px;
+  }
+  .contact_section_title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+/*-----------------------------------------------Mobile Media Query End---------------------------------------------------------------*/
+/*-----------------------------------------------Desktop and Laptop Media Query Start-------------------------------------------------------------*/
+@media only screen and (min-width: 768px)  and (max-width: 870px)
+{
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+  .header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 10px 50px 10px 55px;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    width: max-content;
+  }
+  .banner_content {
+    position: absolute;
+    bottom: 38%;
+    left: 5%;
+  }
+  .immigrate_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 0px;
+  }
+  .study_permit_para {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+  }
+  .about_growing_head {
+    font-family: "Montserrat";
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+  .logo_img {
+    height: 64px;
+/*    width: 100%;*/
+    margin: 25px 0;
+  }
+  .blog-card .blog-card-image {
+    height: 155px;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card-blog .blog-card-caption {
+    margin-top: 5px;
+    height: auto; 
+  }
+  .blog-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    height: -webkit-fill-available;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 11px;
+  }
+  .team_title {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: 350px;
+  }
+  .blog-share {
+    position: relative;
+    left: 5%;
+    bottom: 2%;
+  }
+}
+@media only screen and (min-width: 871px)  and (max-width: 991px)
+{
+  /*.header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background-color: #0c1b2b!important;
+    padding: 0 20px;
+    position: relative!important;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: 350px;
+  }*/
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    /*background-color: #0c1b2b!important;*/
+    padding: 0 10px!important;
+    position: absolute;
+  }
+
+.navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    left: auto;
+  }
+
+.header .logo img {
+    height: 58px!important;
+    max-height: 62px!important;
+    margin-right: 0px!important;
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+}
+
+}
+@media only screen and (min-width: 992px) and (max-width:1199px)
+{
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background-color: #0c1b2b!important;
+    padding: 0 20px;
+    position: relative!important;
+  }
+  .navbar_logo_box {
+    flex-basis: 8%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: 350px;
+  }
+  .blog-card {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      margin-bottom: 30px;
+      border-radius: 6px;
+      color: rgba(0, 0, 0, 0.87);
+      background: #fff;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      height: -webkit-fill-available;
+  }
+  .blog-card .blog-card-image {
+    height: auto;
+    width: -webkit-fill-available;
+    height: fit-content!important;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    height: fit-content;
+  }
+  .blog-card-blog .blog-card-caption {
+      margin-top: 5px;
+      height: auto; 
+  }
+  .footer .footer-info .logo img{
+    width: 100%;
+  }
+  .footer .footer-links .flex_this{
+    display: block;
+  }
+  .footer_img {
+    width: -webkit-fill-available;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width:1359px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 14px;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  .banner_content {
+      position: absolute;
+      bottom: 16%;
+      left: 5%;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: 310px;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------------Blog start--------------------------------------*/
+  .blog-card {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      margin-bottom: 30px;
+      border-radius: 6px;
+      color: rgba(0, 0, 0, 0.87);
+      background: #fff;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      height: -webkit-fill-available;
+  }
+  /*--------------------------------------Blog End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1360px)  and (max-width: 1440px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 15px!important;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  .banner_content {
+      position: absolute;
+      bottom: 28%;
+      left: 5%;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    height: 320px;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1441px)  and (max-width: 1600px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 18px;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1601px)  and (max-width: 1919px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 18px;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Montserrat";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Montserrat";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Montserrat";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px!important;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Montserrat";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1920px)  and (max-width:2020px)
+{
+  .blog-card .blog-card-image {
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+}
+@media only screen and (min-width: 2021px)  and (max-width:2100px)
+{
+  .blog-card {
+    height: -webkit-fill-available;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .blog-card .blog-card-image {
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .blog-category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+    font-family: "Montserrat";
+    font-size: 26px;
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 2101px)  and (max-width:2200px)
+{
+  .blog-card {
+    height: -webkit-fill-available;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .blog-card .blog-card-image {
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .blog-category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+    font-family: "Montserrat";
+    font-size: 26px;
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 2201px)  and (max-width:2300px)
+{
+}
+@media only screen and (min-width: 2301px)  and (max-width:2400px)
+{
+}
+@media only screen and (min-width: 2401px)  and (max-width:2560px)
+{
+}
+@media only screen and (min-width: 2561px)  and (max-width: 2660px)
+{
+}
+@media only screen and (min-width: 2661px)  and (max-width:2800px)
+{
+}
+/*-------------------------------remaining---------------------------------------*/

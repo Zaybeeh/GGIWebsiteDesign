@@ -1,0 +1,727 @@
+/*-------------------------------------------Mobile Media Query Start-----------------------------------------------------------------*/
+@media only screen and (min-width:320px) and (max-width: 374px)
+{
+  /*--------------------------------Header page start--------------------------------*/
+  .topbar {
+    background: #000;
+    height: 50px;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+    padding: 0 20px;
+  }
+  .header {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background-color: #0c1b2b;
+    padding: 0 20px;
+  }
+  .header .logo img {
+    max-height: 62px;
+    margin-right: 6px;
+    margin-top: -5px;
+  }
+  .mobile_nav{
+    justify-content: space-between;
+  }
+  /*--------------------------------Header page End--------------------------------*/
+  /*--------------------------------Home page start--------------------------------*/
+    .video_sec_counter_box {
+      display: grid!important;
+      column-gap: 80px;
+      justify-content: center;
+      margin-top: 50px;
+      position: relative;
+      row-gap: 25px;
+    }
+    .video_sec_counter_title {
+      font-family: "helvetica";
+      font-size: 25px!important;
+      color: #fff;
+      text-align: center;
+    }
+    .video_book_appoint {
+      font-family: "Helvetica";
+      background: transparent;
+      font-weight: 500;
+      font-size: 10px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: -webkit-fill-available;
+    }
+    .video_free_report {
+      font-family: "Helvetica";
+      background: transparent;
+      font-weight: 500;
+      font-size: 10px!important;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 50px 10px 55px;
+      letter-spacing: 0.5px;
+      border: 2px solid #fff;
+      width: 280px;
+    }
+    .embark_book_appoint {
+      font-family: "Helvetica";
+      background: transparent;
+      font-weight: 500;
+      font-size: 16px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .embark_btn_box {
+      display: grid!important;
+      column-gap: 50px;
+      justify-content: center;
+      row-gap: 20px;
+    }
+    .embark_free_report {
+      font-family: "Helvetica";
+      background: #d80100;
+      font-weight: 500;
+      font-size: 16px;
+      color: #fff;
+      border-radius: 6px;
+      padding: 10px 40px 13px 42px!important;
+      letter-spacing: 0.5px;
+      border: 2px solid #d80100;
+    }
+    .book_appoint_box {
+      column-gap: 20px;
+      display: grid!important;
+      justify-content: center;
+      row-gap: 20px!important;
+    }
+    .testimonials_sec {
+        background-color: #101822;
+        padding: 60px 20px!important;
+        box-sizing: border-box;
+    }
+  /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Helvetica";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 12px;
+  }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+  /*--------------------------------Team page start--------------------------------*/
+  .team_section {
+    background: #0c1b2b;
+    padding: 50px 20px;
+  }
+  .team_title {
+    font-family: "Helvetica";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 27px;
+  }
+  .team_card_box {
+    padding: 0 0px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 22px;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_appointment {
+    font-family: "Helvetica";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 15px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  .team_card_free_report {
+    font-family: "Helvetica";
+    background: #fff;
+    font-weight: 600;
+    font-size: 11px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 13px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_inner_2 {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    margin-top: 20px;
+  }
+  .team_card_type {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .team_card_type_name {
+    font-family: "Helvetica";
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    margin-bottom: 19px;
+  }
+  .team_card_experience {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .team_card_experience_box {
+    font-family: "Helvetica";
+    background: #d80100;
+    font-weight: 500;
+    padding: 5px 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 5px;
+  }
+  .team_card_consult_fee_title {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .team_card_consult_fee {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: #d80100;
+  }
+  .scroll-container {
+    height: 100px;
+    overflow-y: scroll;
+    position: relative;
+    font-family: "Helvetica";
+    font-size: 14px;
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+    /* background: #d80100; */
+  }
+  /*--------------------------------Team page start--------------------------------*/
+}
+@media only screen and (min-width:375px) and (max-width: 405px)
+{
+
+}
+@media only screen and (min-width:406px) and (max-width: 459px)
+{
+}
+@media only screen and (min-width: 460px) and (max-width: 540px)
+{
+}
+@media only screen and (min-width: 541px)  and (max-width: 767px)
+{
+}
+/*-----------------------------------------------Mobile Media Query End---------------------------------------------------------------*/
+/*-----------------------------------------------Desktop and Laptop Media Query Start-------------------------------------------------------------*/
+@media only screen and (min-width: 768px)  and (max-width: 870px)
+{
+}
+@media only screen and (min-width: 871px)  and (max-width: 991px)
+{
+}
+@media only screen and (min-width: 992px) and (max-width:1199px)
+{
+}
+@media only screen and (min-width: 1200px) and (max-width:1359px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 18px;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  .banner_content {
+      position: absolute;
+      bottom: 16%;
+      left: 5%;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Helvetica";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Helvetica";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Helvetica";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1360px)  and (max-width: 1440px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 16px!important;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  .banner_content {
+      position: absolute;
+      bottom: 16%;
+      left: 5%;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Helvetica";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Helvetica";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Helvetica";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1441px)  and (max-width: 1600px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 18px;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Helvetica";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Helvetica";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Helvetica";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1601px)  and (max-width: 1919px)
+{
+  /*--------------------------------------Header Start--------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-family: ;
+    font-size: 18px;
+    font-weight: 500;
+    color: ;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  /*--------------------------------------Header End--------------------------------------*/
+  /*--------------------------------------Team Start--------------------------------------*/
+  .team_card_box {
+    padding: 0 10px;
+  }
+  .team_card {
+    background: #fff;
+    padding: 30px 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  .team_card_name {
+    font-family: "Helvetica";
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .team_card_free_report {
+    font-family: "Helvetica";
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    color: #d80100;
+    border-radius: 6px;
+    padding: 6px 14px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .team_card_appointment {
+    font-family: "Helvetica";
+    background: #d80100;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+    margin-bottom: 10px;
+  }
+  /*--------------------------------------Team End--------------------------------------*/
+  /*--------------------------------Footer page start--------------------------------*/
+  .footer {
+    font-size: 14px;
+    background-color: #101822;
+    padding: 50px 0;
+    color: white;
+    padding: 50px 20px 20px 20px;
+  }
+  .footer h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: "Helvetica";
+  }
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.7);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica";
+  }
+  .footer .copyright {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 12px;
+  }
+  /*--------------------------------Footer page End--------------------------------*/
+}
+@media only screen and (min-width: 1920px)  and (max-width:2020px)
+{
+}
+@media only screen and (min-width: 2021px)  and (max-width:2100px)
+{
+}
+@media only screen and (min-width: 2101px)  and (max-width:2200px)
+{
+}
+@media only screen and (min-width: 2201px)  and (max-width:2300px)
+{
+}
+@media only screen and (min-width: 2301px)  and (max-width:2400px)
+{
+}
+@media only screen and (min-width: 2401px)  and (max-width:2560px)
+{
+}
+@media only screen and (min-width: 2561px)  and (max-width: 2660px)
+{
+}
+@media only screen and (min-width: 2661px)  and (max-width:2800px)
+{
+}
+/*-------------------------------remaining---------------------------------------*/
